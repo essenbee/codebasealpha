@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from './header'
 import Footer from './footer'
-import '../fomantic/dist/semantic.css'
+import '../fomantic/dist/semantic.min.css'
 
 const Layout = (props) => {
     return (
