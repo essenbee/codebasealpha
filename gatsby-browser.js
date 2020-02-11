@@ -1,0 +1,1 @@
+import './src/fomantic/dist/semantic.min.css'

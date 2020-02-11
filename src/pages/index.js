@@ -1,5 +1,4 @@
 import React from 'react'
-import 'fomantic/dist/semantic.min.css'
 import { Container } from 'semantic-ui-react'
 import Layout from '../components/layout'
 
