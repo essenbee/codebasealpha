@@ -9,6 +9,6 @@ This is the repository of the [Codebase Alpha website](https://codebasealpha.dev
 
 I am not a front-end developer by any stretch of the imagination (most of my experience is with back-end tech), but I want to show that a leopard can change its spots (at least temporarily), and that development skills and experience are generally transferrable between technologies. Learning new languages, frameworks and so on, is not that difficult (but _may_ be harder to master). No matter what your background, you _can_ tackle a wide variety of types of project. And this portfolio site is intended to showcase all of the projects we have covered on the Codebase Alpha live coding stream.
 
-*Setting up Fomantic UI with React or GatsbyJS*
+## Setting up Fomantic UI with React or GatsbyJS
 
 The Fomantic UI homepage ca be found [here](https://fomantic-ui.com). Its the community fork of Semantic UI. Full instructions for getting it up and running in a GatsbyJS project can be found [here](https://medium.com/@fomantic/setting-up-fomantic-ui-with-react-f701b68f736c).
