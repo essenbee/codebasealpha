@@ -5,8 +5,12 @@
  */
 
 module.exports = {
+
+  siteMetadata: {
+    title: 'CodebaseAlpha.dev',
+  },
+
   plugins: [
-    `gatsby-plugin-less`,
-    `gatsby-plugin-sass`
+    'gatsby-plugin-sass'
   ]
 }
