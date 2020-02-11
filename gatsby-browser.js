@@ -1,1 +1,1 @@
-import 'static/semantic.min.css'
+// import 'static/semantic.min.css'
