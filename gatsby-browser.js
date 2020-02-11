@@ -1,1 +1,1 @@
-import './static/semantic.css'
+import './src/fomantic/dist/semantic.css'
