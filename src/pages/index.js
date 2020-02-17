@@ -1,6 +1,7 @@
 import React from 'react'
 import { Container } from 'semantic-ui-react'
 import Layout from '../components/layout'
+import Projects from '../components/projects'
 
 const IndexPage = () => (
   <Layout>
@@ -12,6 +13,7 @@ const IndexPage = () => (
           </span>{' '}
           Hello from Codebase Alpha!
           </h2>
+          <Projects />
       </Container>
   </Layout>
 )
