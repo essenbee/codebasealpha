@@ -3,7 +3,7 @@ import stu from "../../static/stu.jpg"
 
 const BlogPost = (props) => (
     <div>
-        <article className="ui horizontal raised link card" key={props.id}>
+        <article className="ui horizontal raised link card">
             <div className="content">
                 <div className="header"><i className="quote left icon" /> {props.title}</div>
                 <div className="meta">{props.date}</div>

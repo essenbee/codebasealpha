@@ -26,7 +26,7 @@ const BlogPosts = () => {
         <div>
             <div className="ui cards">
                 {edges.map( ( { node } ) =>
-                  <BlogPost 
+                  <BlogPost key={node.id}
                     id={node.id}
                     title={node.frontmatter.title}
                     date={node.frontmatter.date}
