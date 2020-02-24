@@ -13,7 +13,7 @@ const BlogPosts = () => {
               excerpt
               frontmatter {
                 title
-                date
+                date(formatString: "DD MMMM YYYY")
                 tags
               }
             }
