@@ -15,7 +15,7 @@ const Header = () => (
                         </span>
                     </Link>
                 </h1>
-                <Link className="right item" to="/" >Blog</Link>
+                <Link className="right item" to="/blog" >Blog</Link>
                 <Link className="item" to="/" >About</Link>
                 <Link className="item" to="/" >Contact</Link>
             </Container>

@@ -16,6 +16,14 @@ module.exports = {
 
   plugins: [
     'gatsby-plugin-sass',
+    'gatsby-transformer-remark',
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `files`,
+        path: `${__dirname}/src/posts`,
+      },
+    },
     {
       resolve: 'gatsby-source-graphql',
       options: {
