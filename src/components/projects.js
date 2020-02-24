@@ -43,7 +43,7 @@ const Projects = () => {
                 <div className="ui four stackable raised cards">
                     {edges.map(( { node }) =>
                     (
-                        <div className="ui link card">
+                        <div className="ui link card" key={node.url}>
                             <div className="content">
                                 <div className="header">
                                     <i className="project diagram icon"/> {node.name}
@@ -68,7 +68,7 @@ const Projects = () => {
                                 </div>
                                 <div>
                                   {node.languages.edges.map( ( { node } ) => 
-                                    <span className="ui tiny tag label">{node.name}</span>
+                                    <span className="ui tiny tag label" key={node.name}>{node.name}</span>
                                   ) }
                                 </div>
                             </div>
