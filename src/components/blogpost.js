@@ -1,5 +1,5 @@
 import React from 'react'
-import avatar from "../../static/avatarcode.jpg"
+import stu from "../../static/stu.jpg"
 
 const BlogPost = (props) => (
     <div>
@@ -11,7 +11,7 @@ const BlogPost = (props) => (
                 
                 <div className="extra content">
                     <div className="right floated author">
-                        <img className="ui avatar image" src={avatar} /> Essenbee
+                        <img className="ui avatar image" src={stu} alt="Essenbee"/> Essenbee
                     </div>
                 </div>
 
