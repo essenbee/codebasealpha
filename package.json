@@ -14,7 +14,7 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
-    "fomantic-ui": "^2.8.3",
+    "fomantic-ui": "^2.8.4",
     "gatsby": "^2.19.7",
     "gatsby-plugin-sass": "^2.1.28",
     "gatsby-source-filesystem": "^2.1.48",
