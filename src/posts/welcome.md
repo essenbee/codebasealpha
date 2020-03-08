@@ -1,8 +1,18 @@
 ---
 title: "Welcome"
-date: "2020-02-24"
-tags: "welcome"
+date: "2020-03-08"
+tags: "developers"
 ---
-# Welcome to the Codebase Alpha Blog
+# Welcome!
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+This is the first post in the Codebase Alpha blog series of occasional technical postings, musings and personal views, all centred around my live coding stream on [Twitch](https://twitch.tv/codebasealpha).
+
+At the time of writing this post, I've been live-streaming software development for a little over a year, and it has been an interesting experience. My streams are preceded in the most part by little to no preparation, other than perhaps at the very beginning of a new project. Then I may make a brief survey of technologies I am not familiar with, mainly noting the URLs of websites that may be of help during the stream. Sometimes I will make a note of code snippets that seem particularly important or hard to derive from first principles. All of this means that, on each stream, I put myself at risk of running into issues or questions that can bring the stream to a griding halt! But this is exactly what real developers writing real code face each and every day. Live-coding streams are not about delivering a slick and practiced conference presentation, but trying to show the experience of every jobbing developer. Most of the time, with the help of the chat room, I manage to find solutions or ways forward whilst broadcasting. Other times, the stream has to end in a most unsatisfactory manner, with a problem unsolved or a question unanswered. Once again, this reflects real life. Sometimes we as developers just need time to think, process problems using the subconcious, research and try out solutions. And I cannot tell you how many times the answer to a problem has become clear to me just a few minutes after ending such a stream. Coding, thinking and talking at the same time is hard!
+
+So why start live streaming in the first place? Well, its certainly not to make money! The main motivations are to challenge myself and to give something back to the developer community in my own small way. Although I mainly code using the Microsoft .NET stack, both professionally and on stream, the projects I tackle on Codebase Alpha are a world away from those I work on as a professional developer. This project, the creation of a Protfolio website using [GatsbyJS](https://www.gatsbyjs.org) and [Fomantic UI](https://fomantic-ui.com/), is a case in point. I'm a back-end dev by trade, so working in the NodeJS ecosystem is something well outside my comfort zone.
+
+As far as giving something back goes, I genuinely hope my viewers, both live on Twitch, and on YouTube, gain some modicum of inspiration to start their own projects, realise that the skills they have are transferrable between often widely-different technologies, and understand that they are not alone in getting stuck and having to resort to Google and Stack Overflow to find answers.
+
+So, all of the above is a long-winded way of saying welcome to Codebase Alpha! I hope that you find something of interest or use amongst the plethora of projects I've worked on over the past year, whether that be the AI chatbot, our [Alexa skill nuget library](https://www.nuget.org/packages/Essenbee.Alexa.Lib/) the fun GPU pixel shader streams, or anything else I've done. I'm not sure how often blog articles will be posted, so check back often.
+
+Happy coding!
