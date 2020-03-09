@@ -16,6 +16,9 @@ const BlogPosts = () => {
                 date(formatString: "DD MMMM YYYY")
                 tags
               }
+              fields {
+                permalink
+              }
             }
           }
           totalCount
@@ -28,6 +31,7 @@ const BlogPosts = () => {
                 {edges.map( ( { node } ) =>
                   <BlogPost key={node.id}
                     id={node.id}
+                    to={node.fields.permalink}
                     title={node.frontmatter.title}
                     date={node.frontmatter.date}
                     tags={node.frontmatter.tags}
