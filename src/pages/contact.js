@@ -23,22 +23,24 @@ const ContactPage = () => (
           <div>
                 <form className="ui form"
                       name="contact" 
-                      method="POST" 
-                      action="/"
+                      method="post" 
                       data-netlify="true"
                       data-netlify-honeypot="bot-field">
                     <input type="hidden" name="bot-field" />
                     <div className="field">
-                        <label for="name">Name</label>
-                        <input id="name" name="name" type="text" placeholder="Your name" />
+                        <label for="name">Name
+                            <input id="name" name="name" type="text" placeholder="Your name" />
+                        </label>
                     </div>
                     <div className="field">
-                        <label for="email">Email Address</label>
-                        <input id="email" name="email" type="email" placeholder="yourname@email.com" />
+                        <label for="email">Email Address
+                            <input id="email" name="email" type="email" placeholder="yourname@email.com" />
+                        </label>
                     </div>
                     <div className="field">
-                        <label for="message">Message</label>
-                        <textarea id="message" placeholder="Type your message here" name="message" ></textarea>
+                        <label for="message">Message
+                            <textarea id="message" placeholder="Type your message here" name="message" ></textarea>
+                        </label>
                     </div>
                     <button className="ui button" type="submit">Submit</button>
                 </form>
