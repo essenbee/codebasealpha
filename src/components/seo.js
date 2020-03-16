@@ -11,19 +11,19 @@ const SEO = ( { title, description, pathname, isArticle } ) => (
                         siteMetadata: {
                             author,
                             avatar,
-                            description,
+                            defaultDescription,
                             siteLanguage,
                             siteUrl,
                             sitename,
-                            title,
+                            defaultTitle,
                             titleTemplate,
                             twitterUsername,
                         },
                     },
                }) => {
                const seo = {
-                   title: title,
-                   description: description,
+                   title: title || defaultTitle,
+                   description: description || defaultDescription,
                    avatar : `${siteUrl}${avatar}`,
                    url: `${siteUrl}${pathname || "/"}`,
                 }
@@ -32,11 +32,17 @@ const SEO = ( { title, description, pathname, isArticle } ) => (
                     <Helmet title={seo.title} titleTemplate={titleTemplate}>
                         <meta name="description" content={seo.description} />
                         <meta name="image" content={seo.avatar} />
-                        <meta property="og:url" content={seo.url} />
-                        <meta name="twitter:creator" content={twitterUsername} />
-                        <meta name="twitter:title" content={seo.title} />
-                        <meta name="twitter:description" content={seo.description} />
-                        <meta name="twitter:image" content={seo.avatar} />
+                        <meta name="author" content={seo.author}></meta>
+                        { seo.url && <meta property="og:url" content={seo.url} />}
+                        { seo.title && <meta property="og:title" content={seo.title} />}
+                        { seo.description && <meta property="og:description" content={seo.description} />}
+                        { (isArticle ? true : null) && (<meta property="og.type" content="article" /> ) }
+                        <meta name="twitter:card" content="summary_large_image" />
+                        { seo.twitterUsername && <meta name="twitter:creator" content={twitterUsername} /> }
+                        { seo.twitterUsername &&<meta name="twitter:site" content={twitterUsername} /> }
+                        { seo.title && <meta name="twitter:title" content={seo.title} /> }
+                        { seo.description && <meta name="twitter:description" content={seo.description} /> }
+                        { seo.avatar && <meta name="twitter:image" content={seo.avatar} /> }
                     </Helmet>
                 )
             }
@@ -65,11 +71,11 @@ const query = graphql `query siteData {
       siteMetadata {
         author
         avatar
-        description
+        defaultDescription: description
         siteLanguage
         siteUrl
         sitename
-        title
+        defaultTitle: title
         titleTemplate
         twitterUsername
       }
