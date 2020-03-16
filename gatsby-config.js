@@ -12,10 +12,21 @@ module.exports = {
 
   siteMetadata: {
     title: 'CodebaseAlpha.dev',
+    sitename: 'codebasealpha.dev',
+    titleTemplate: '%s - Portfolio Website',
+    description: 'Portfolio website for Stu Bonham (aka Essenbee), owner of the Codebase Alpha live-coding channel on Twitch.',
+    siteUrl: 'https://codebasealpha.dev',
+    avatar: '/avatarcode.jpg',
+    twitterUsername: '@codebasealpha',
+    siteLanguage: 'en',
+    author: 'essenbee',
   },
 
   plugins: [
     'gatsby-plugin-sass',
+    'gatsby-plugin-netlify',
+    'gatsby-plugin-react-helmet',
+    'gatsby-plugin-advanced-sitemap',
     'gatsby-transformer-remark',
     {
       resolve: `gatsby-source-filesystem`,
