@@ -2,6 +2,7 @@ import React from 'react'
 import { graphql } from 'gatsby'
 import { Container } from 'semantic-ui-react'
 import Layout from '../components/layout'
+import SEO from '../components/seo'
 import stu from "../../static/stu.jpg"
 
 export default ( { data }) => {
@@ -9,6 +10,7 @@ export default ( { data }) => {
 
     return (
         <Layout>
+          <SEO title={posting.frontmatter.title} titleTemplate="%s" isArticle="true" />
             <Container>
               <br />
               <h1 className="ui header"><i className="quote left icon" /> {posting.frontmatter.title}</h1>

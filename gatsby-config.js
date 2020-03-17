@@ -18,7 +18,7 @@ module.exports = {
     siteUrl: 'https://codebasealpha.dev',
     avatar: '/avatarcode.jpg',
     twitterUsername: '@codebasealpha',
-    siteLanguage: 'en',
+    siteLanguage: 'en-GB',
     author: 'essenbee',
   },
 

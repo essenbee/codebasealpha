@@ -2,9 +2,11 @@ import React from 'react'
 import { Container } from 'semantic-ui-react'
 import Layout from '../components/layout'
 import Social from '../components/social'
+import SEO from '../components/seo'
 
 const ContactPage = () => (
   <Layout>
+      <SEO title="Contact Form" pathname="/contact" />
       <Container>
           <br />
           <h2>
