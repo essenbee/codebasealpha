@@ -10,7 +10,8 @@ export default ( { data }) => {
 
     return (
         <Layout>
-          <SEO title={posting.frontmatter.title} titleTemplate="%s" isArticle="true" />
+          <SEO title={posting.frontmatter.title} titleTemplate="%s" description={posting.excerpt}
+               pathname={posting.fields.permalink} isArticle="true" />
             <Container>
               <br />
               <h1 className="ui header"><i className="quote left icon" /> {posting.frontmatter.title}</h1>
@@ -29,10 +30,14 @@ export default ( { data }) => {
 export const query = graphql`query($permalink: String!) {
     markdownRemark(fields: { permalink: { eq: $permalink } }) {
       html
+      excerpt
       frontmatter {
         title
         tags
         date(formatString: "DD MMMM YYYY")
+      }
+      fields {
+        permalink
       }
     }
   }`
