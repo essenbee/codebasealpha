@@ -15,10 +15,12 @@ export default ( { data }) => {
             <Container>
               <br />
               <h1 className="ui header"><i className="quote left icon" /> {posting.frontmatter.title}</h1>
-              <img className="ui avatar image" src={stu} alt="Essenbee"/> Essenbee {' '}
-              <h3 className="ui date">{posting.frontmatter.date}</h3>
               <div>
-                <img className="ui small left floated image" src={'https://source.unsplash.com/550x550?' + posting.frontmatter.tags} alt={posting.frontmatter.tags} />
+                <h3 className="ui date">{posting.frontmatter.date}{'  '}<img className="ui avatar image" src={stu} alt="Essenbee"/> Essenbee</h3>
+              </div>
+              <br />
+              <div>
+                <img className="ui small left floated image" src={'https://source.unsplash.com/550x550?' + posting.frontmatter.tags.toString()} alt={posting.frontmatter.tags} />
                 <div dangerouslySetInnerHTML={{__html: posting.html}}></div>
               </div>
               <br />

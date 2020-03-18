@@ -7,7 +7,7 @@ const BlogPost = (props) => (
         <Link to={props.to}>
             <article className="ui horizontal raised link card">
                 <div className="image">
-                    <img src={'https://source.unsplash.com/150x150/?' + props.tags} alt={props.tags} />
+                    <img src={'https://source.unsplash.com/150x150/?' + props.tags.toString()} alt={props.tags} />
                 </div>
                 <div className="content">
                     <div className="header"><i className="quote left icon" /> {props.title}</div>

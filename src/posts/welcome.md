@@ -1,7 +1,7 @@
 ---
 title: "Welcome"
 date: "2020-03-08"
-tags: "developers"
+tags: ["developers"]
 ---
 This is the first post in the Codebase Alpha blog series of occasional technical postings, musings and personal views, all centred around my live coding stream on [Twitch](https://twitch.tv/codebasealpha).
 

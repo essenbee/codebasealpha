@@ -1,7 +1,7 @@
 ---
 title: "Gatsby and Netlify Forms"
 date: "2020-03-10"
-tags: "forms"
+tags: ["forms","GatsbyJS","Netlify"]
 ---
 This short blog post is really a "note to self" so that I remember how to get Netlify forms working with static site technology like GatsbyJS. On episode 84 of my stream, I successfully created a contact form that was recognised by Netlify. All looked good, apart from the fact that form submissions were not being registered. I tried using an actual email address rather than _test@test.com_ and various other tweaks, all to no avail. The form was there on my Netlify dashboard, but submissions were ignored; they didn't even appear in the spam folder.
 
