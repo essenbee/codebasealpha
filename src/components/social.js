@@ -2,7 +2,7 @@ import React from "react"
 
 const Social = () => (
     <div>
-        <h4>Get in touch through any of these channels</h4>
+        <h4>Get in touch through any of these social channels</h4>
         <div className="ui buttons">
             <a className="ui icon button" href="https://twitter.com/codebasealpha" target="_blank" rel="noopener noreferrer"
                 data-tooltip="My Twitter" data-position="bottom center">
