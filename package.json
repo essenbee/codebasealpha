@@ -22,7 +22,7 @@
     "gatsby-plugin-sass": "^2.1.28",
     "gatsby-source-filesystem": "^2.1.48",
     "gatsby-source-graphql": "^2.1.33",
-    "gatsby-transformer-remark": "^2.6.53",
+    "gatsby-transformer-remark": "^5.25.1",
     "node": "^12.14.1",
     "node-sass": "^4.13.1",
     "prop-types": "^15.7.2",
